@@ -36,21 +36,21 @@ h2{
 
 h3{
 	font-family: 'CUBANO', truetype;
-	font-size:2rem;
-	letter-spacing:0.1em;
+	font-size:2.5rem;
+	letter-spacing:0em;
 	color:rgba(0,0,0,0.9);
 	text-align:center;
 	padding:1rem 0;
 }
 
 a{
-	color:rgba(155,0,0,1);
+	color: #df001e;
 	text-decoration:none;
 }
 
 a:hover{
-	color:rgba(255,0,0,1);
-	text-decoration:underline;
+	color: #a50016;
+	text-decoration:none;
 }
 
 /* COMENZAMOS CON LAS PARTES */
@@ -102,6 +102,8 @@ video{
 
 .primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
 
+.red {color:#df001e;}
+
 .segunda{
 	min-height:300px;
 	text-align:right;
@@ -131,19 +133,17 @@ video{
 	background:linear-gradient(to bottom, #eee, #aaa);
 }
 
-#portafolio h4{color:#df001e; font-family: CUBANO;}
-
 
 .item {
 	width:23%;
 	margin:1%;
-	color:#333;
-	background:white;
+	color:#ffffff;
+	background:#000000;
 	box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
 .item:hover{
-	cursor:crosshair;
+	cursor:pointer;
 }
 
 .item figure{
@@ -154,19 +154,21 @@ video{
 	width:100%; 
 	height:auto; 
 	margin-bottom:-4px;
-	filter: grayscale(1);
+	filter: grayscale(0);
 }
 
 .item:hover figure img{
-	transform:scale(2);
+	transform:scale(1.1);
 	filter: grayscale(0);	
 	transition:all ease-out 1s;
 }
 
 .item h4{
+	font-family: CUBANO;
 	font-size:1em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
+	color:#ffffff;
 }
 
 .item p{
@@ -175,16 +177,24 @@ video{
 	margin:2% 5% 6% 5%;
 }
 
+.item h6{
+	letter-spacing:0.05em;
+	margin:0 5% 6% 5%;
+}
+
 footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
+	background-color: #df001e;
 }
 
 footer p{
 	
-	letter-spacing:0.1em;
+	letter-spacing:0em;
 	font-size:0.9em;
+	padding: 0 0 40px 0;
+	color: #ffffff;
 	}
 
 /* AJUSTES PARA QUE SE VEA BIEN EN DISTINTOS DISPOSITIVOS */	
@@ -195,6 +205,12 @@ footer p{
 		width:96%;
 		padding:2%;
 		float:left;
+	}
+
+	.primera{
+		background-size:auto 60%;
+		background-position:bottom right;
+
 	}
 
 }
