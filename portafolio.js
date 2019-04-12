@@ -28,7 +28,7 @@ var trabajos = [
 }, {
     figure: "media/foto-06.jpg",
     title: "Web Mauco Higiene",
-    about: "sitio Web (one page) para una empresa de higiene y limpieza.",
+    about: "Sitio Web (one page) para una empresa de higiene y limpieza.",
     proyect: "Grupo Mauco",
 }, {
     figure: "media/foto-07.jpg",
