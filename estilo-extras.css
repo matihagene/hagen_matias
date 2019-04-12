@@ -1,0 +1,14 @@
+/* ESTILOS EXTRA AÑADIDOS */
+
+.red {color:#df001e;}
+.red-bold {color:#df001e; font-weight: bold;}
+
+@media screen and (orientation: portrait){
+
+	.primera{
+		background-size:auto 60%;
+		background-position:bottom right;
+
+	}
+
+}
